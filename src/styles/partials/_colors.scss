@@ -1,0 +1,71 @@
+$primary-color-clean: #333333;
+$secondary-color-clean: #ffffff;
+$accent-color-clean: #4285f4;
+
+$primary-color-earth: #704214;
+$secondary-color-earth: #f0e6d2;
+$accent-color-earth: #005696;
+
+$primary-color-vibrant: #3f51b5;
+$secondary-color-vibrant: #f5f5f5;
+$accent-color-vibrant: #ff5722;
+
+$primary-color-calm: #009688;
+$secondary-color-calm: #e0f2f1;
+$accent-color-calm: #757575;
+
+$primary-color-classic: #000000;
+$secondary-color-classic: #ffffff;
+$accent-color-classic: #ff5252;
+
+$bs-primary-color: #007bff;
+$bs-primary-color-darker: #0056b3;
+
+$bs-danger-color: #dc3545;
+$bs-danger-color-darker: #c82333;
+
+$bs-warning-color: #ffc107;
+$bs-warning-color-darker: #d39e00;
+
+:root {
+    --primary-color: #{$primary-color-clean};
+    --secondary-color: #{$secondary-color-vibrant};
+    --accent-color: #{$accent-color-calm};
+
+    --btn-bs-primary-color: #{$bs-primary-color};
+    --btn-bs-primary-color-darker: #{$bs-primary-color-darker};
+    --btn-bs-danger-color: #{$bs-danger-color};
+    --btn-bs-danger-color-darker: #{$bs-danger-color-darker};
+    --btn-bs-warning-color: #{$bs-warning-color};
+    --btn-bs-warning-color-darker: #{$bs-warning-color-darker};
+}
+
+.color-scheme1 {
+    --primary-color: #{$primary-color-clean};
+    --secondary-color: #{$secondary-color-clean};
+    --accent-color: #{$accent-color-clean};
+}
+
+.color-scheme2 {
+    --primary-color: #{$primary-color-earth};
+    --secondary-color: #{$secondary-color-earth};
+    --accent-color: #{$accent-color-earth};
+}
+
+.color-scheme3 {
+    --primary-color: #{$primary-color-vibrant};
+    --secondary-color: #{$secondary-color-vibrant};
+    --accent-color: #{$accent-color-vibrant};
+}
+
+.color-scheme4 {
+    --primary-color: #{$primary-color-calm};
+    --secondary-color: #{$secondary-color-calm};
+    --accent-color: #{$accent-color-calm};
+}
+
+.color-scheme5 {
+    --primary-color: #{$primary-color-classic};
+    --secondary-color: #{$secondary-color-classic};
+    --accent-color: #{$accent-color-classic};
+}

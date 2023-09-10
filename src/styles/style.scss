@@ -1,0 +1,83 @@
+@use "partials";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.editor,
+.output {
+    flex: 1;
+    overflow-y: auto;
+    height: calc(100vh - 65px);
+    box-sizing: border-box;
+}
+
+.standard-sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modern-sans-serif {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.classic-serif {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+@media print {
+    @page {
+        size: auto;
+        margin: 0;
+    }
+
+    header {
+        display: none;
+    }
+
+    .editor {
+        display: none;
+    }
+
+    .output {
+        margin: 30px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        page-break-after: auto;
+    }
+}

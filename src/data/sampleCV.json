@@ -1,0 +1,79 @@
+{
+    "headerSection": {
+        "name": "John Doe",
+        "email": "johndoe@notreal.com",
+        "countryCode": "91",
+        "phoneNumber": "9999999999",
+        "portfolioURL": "https://www.portfolio.me",
+        "githubURL": "https://github.com/username",
+        "linkedInURL": "https://www.linkedin.com/username"
+    },
+    "introductionSection": {
+        "careerObjective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+    },
+    "educationSection": {
+        "instituteName": "Lorem Institute of Technology",
+        "instituteAddress": "Lorem City, Lorem State, Lorem Country",
+        "course": "B.Tech in Computer Science with specialization in AI",
+        "cgpa": "8.5",
+        "startDate": "2020-11-25",
+        "endDate": "2024-05-25"
+    },
+    "projectSection": {
+        "projects": [
+            {
+                "title": "Lorem Project 1",
+                "technologies": "Vite, React, Local Storage, Virtualization, JavaScript",
+                "demoURL": "https://www.demo.com",
+                "repositoryURL": "https://github.com/username/projectName",
+                "npmURL": "",
+                "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+                "description2": "Fusce convallis lectus sit amet gravida porttitor. Sed ac quam id dolor viverra pretium.",
+                "description3": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.",
+                "description4": "Pellentesque facilisis purus vel purus bibendum, et ultrices libero efficitur.",
+                "description5": "Nulla facilisi. Curabitur vitae leo id elit cursus pellentesque sit amet non arcu.",
+                "description6": "Borem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmseod yempor."
+            },
+            {
+                "title": "Lorem Project 2",
+                "technologies": "JavaScript, Webpack, Jest",
+                "demoURL": "https://www.demo.com",
+                "repositoryURL": "https://github.com/username/projectName",
+                "npmURL": "",
+                "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+                "description2": "Fusce convallis lectus sit amet gravida porttitor. Sed ac quam id dolor viverra pretium.",
+                "description3": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.",
+                "description4": "Pellentesque facilisis purus vel purus bibendum, et ultrices libero efficitur.",
+                "description5": "Nulla facilisi. Curabitur vitae leo id elit cursus pellentesque sit amet non arcu.",
+                "description6": "Borem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmseod yempor."
+            },
+            {
+                "title": "Lorem Project 3",
+                "technologies": "JavaScript, Webpack, npm packages",
+                "demoURL": "",
+                "repositoryURL": "https://github.com/username/projectName",
+                "npmURL": "https://npm.com/username/projectName",
+                "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+                "description2": "Fusce convallis lectus sit amet gravida porttitor. Sed ac quam id dolor viverra pretium.",
+                "description3": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.",
+                "description4": "Pellentesque facilisis purus vel purus bibendum, et ultrices libero efficitur.",
+                "description5": "Nulla facilisi. Curabitur vitae leo id elit cursus pellentesque sit amet non arcu.",
+                "description6": "Borem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmseod yempor."
+            }
+        ]
+    },
+    "technicalSkillSection": {
+        "programmingLanguages": "JavaScript, C, C++",
+        "webTechnologies": "HTML5, CSS3, Pug, SCSS",
+        "frontendFrameworks": "React",
+        "developmentTools": "Vite, Webpack, VS Code, Git",
+        "testingFramework": "Jest"
+    },
+    "achievementSection": {
+        "achievement1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "achievement2": "Fusce convallis lectus sit amet gravida porttitor. Sed ac quam id dolor viverra pretium.",
+        "achievement3": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.",
+        "achievement4": "Pellentesque facilisis purus vel purus bibendum, et ultrices libero efficitur.",
+        "achievement5": "Nulla facilisi. Curabitur vitae leo id elit cursus pellentesque sit amet non arcu."
+    }
+}

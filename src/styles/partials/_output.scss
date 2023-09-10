@@ -1,0 +1,45 @@
+.output {
+    min-width: 600px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.section-container {
+    margin: 10px 0 10px 18px;
+}
+
+.header-section-container {
+    margin-bottom: 10px;
+}
+
+.project-description-list {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 36px;
+}

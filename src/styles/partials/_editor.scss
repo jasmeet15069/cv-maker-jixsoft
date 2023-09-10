@@ -1,0 +1,110 @@
+@use "./colors" as *;
+
+.editor {
+    min-width: 600px;
+    background-color: var(--secondary-color);
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+}
+
+.section-header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.dropdown-toggle-btn {
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+    padding: 0 5px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.dropdown-container {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 300ms ease-in-out;
+}
+
+.dropdown-container.show-dropdown {
+    grid-template-rows: 1fr;
+}
+
+.input-container {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.input-section-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.project-input-container {
+    margin: 30px auto;
+}
+
+.tool-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .font-select-btn {
+        display: flex;
+        gap: 10px;
+
+        button {
+            width: 90px;
+        }
+    }
+    .resume-related-btn {
+        display: flex;
+        gap: 10px;
+
+        .download-pdf-btn {
+            background-color: var(--btn-bs-danger-color);
+            &:hover {
+                background-color: var(--btn-bs-danger-color-darker);
+            }
+        }
+
+        .load-sample-btn {
+            background-color: var(--btn-bs-primary-color);
+            &:hover {
+                background-color: var(--btn-bs-primary-color-darker);
+            }
+        }
+    }
+
+    button {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: var(--accent-color);
+            cursor: pointer;
+        }
+    }
+}
