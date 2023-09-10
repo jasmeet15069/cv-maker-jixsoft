@@ -1,6 +1,6 @@
 # CV Application
 
--   Live: [CV Application Live](https://idyllic-rabanadas-946c89.netlify.app/)
+-   Live: [CV Application Live](https://cv-maker-jixsoft.netlify.app/)
 
 ## Description
 
@@ -25,7 +25,7 @@ Choose from three available fonts:
 
 ## Usage
 
-1. Access the [CV Application Live](https://idyllic-rabanadas-946c89.netlify.app/).
+1. Access the [CV Application Live](https://cv-maker-jixsoft.netlify.app/).
 2. Input your details and select your preferred font.
 3. Generate the CV layout.
 4. Download your CV as a PDF using the print option. Make sure to select "Save as PDF" in the print dialog for selectable text and valid hyperlinks.
