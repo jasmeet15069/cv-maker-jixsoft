@@ -38,7 +38,7 @@ Choose from three available fonts:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/karprabha/cv-application
+    git clone https://github.com/jasmeet15069/cv-maker-jixsoft.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -62,11 +62,11 @@ Choose from three available fonts:
 
 ## Future Plans
 
-I have plans on implementing following features in future
+I have plans on implementing the following features in the future
 
 1.  Font size option
 2.  More font style options
-3.  Different CV styles (including double column CV)
+3.  Different CV styles (including double-column CV)
 
 ## Contributing
 
